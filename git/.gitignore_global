@@ -1,0 +1,7 @@
+# visual studio code excludes
+.vscode/
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
