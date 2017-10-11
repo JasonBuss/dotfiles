@@ -15,6 +15,8 @@ alias gitbash='gitbash.cmd'
 alias nuke='shred -fuvz'
 alias bash='c:/cygwin64/bin/bash'
 alias ..='cd ..'
+alias la='ls -la'
+alias ll='ls -l'
 
 # Some example alias instructions
 # If these are enabled they will be used instead of any instructions
