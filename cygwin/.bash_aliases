@@ -1,22 +1,23 @@
 # Aliases
 
-alias windr='cd /cygdrive/c'
-alias startdev='startdev.cmd'
-alias launch='launch.cmd'
-alias newrepo='newrepo.cmd'
-alias gottago='shutdown -r now'
-alias projects='cd /cygdrive/c/users/jtbadmin/projects'
-alias updatehosts='nano /cygdrive/c/windows/system32/drivers/etc/hosts'
-alias opencode='opencode.cmd'
-alias openatom='openatom.cmd'
-alias login='jtblogin.cmd'
-alias jstart='jstart.cmd'
-alias gitbash='gitbash.cmd'
+alias windr='cd /cygdrive/c'  # Move to C:
+alias startdev='startdev.cmd' # Starts "Devserver" VM
+alias launch='launch.cmd' # Used to launch VMs by name
+alias newrepo='newrepo.cmd' # Create new git repo by GitAccount/name
+alias gottago='shutdown -r now' # Shutdown now
+alias projects='cd /cygdrive/c/users/jtbadmin/projects' # Shortcut to projects folder winpath
+alias updatehosts='nano /cygdrive/c/windows/system32/drivers/etc/hosts' # Update hosts file
+# alias opencode='opencode.cmd'
+# alias openatom='openatom.cmd'
+alias login='jtblogin.cmd' # Run regular login perameters
+alias jstart='jstart.cmd' # Start windows file
+alias gitbash='gitbash.cmd' 
 alias nuke='shred -fuvz'
 alias bash='c:/cygwin64/bin/bash'
 alias ..='cd ..'
-alias la='ls -la'
+alias la='ls --color=auto -la'
 alias ll='ls -l'
+alias term="term.cmd"
 
 # Some example alias instructions
 # If these are enabled they will be used instead of any instructions
