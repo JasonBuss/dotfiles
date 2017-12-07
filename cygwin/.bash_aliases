@@ -18,6 +18,7 @@ alias ..='cd ..'
 alias la='ls --color=auto -la'
 alias ll='ls -l'
 alias term="term.cmd"
+alias mintty='mintty.exe -s 77x16 -p @2 -i /Cygwin-Terminal.ico -'
 
 # Some example alias instructions
 # If these are enabled they will be used instead of any instructions
