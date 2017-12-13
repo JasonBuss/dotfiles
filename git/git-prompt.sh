@@ -14,7 +14,7 @@
 	PS1="$PS1"'\u'              # current user
 	PS1="$PS1"'\[\033[37m\]'	# change color
 	PS1="$PS1"'@'				# '@'
-	PS1="$PS1"'\[\033[34m\]'    # change color
+	PS1="$PS1"'\[\033[35m\]'    # change color
 	PS1="$PS1"'\h'             	# current host
 	PS1="$PS1"'\[\033[37m\]'    # change color
 	PS1="$PS1"' in '			# ' in '
