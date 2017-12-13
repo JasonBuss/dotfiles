@@ -10,7 +10,7 @@
 	PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]' # set window title
 	PS1="$PS1"'\[\e[01;30m\]\t' # TimeStamp
 	PS1="$PS1"'`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else echo "\[\e[31m\] ✘ "; fi`' #Add check for valid or failed command	
-	PS1="$PS1"'\[\033[35m\]'	# change color
+	PS1="$PS1"'\[\033[34m\]'	# change color
 	PS1="$PS1"'\u'              # current user
 	PS1="$PS1"'\[\033[37m\]'	# change color
 	PS1="$PS1"'@'				# '@'
