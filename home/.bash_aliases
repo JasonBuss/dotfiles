@@ -1,5 +1,5 @@
-alias la='ls --color=auto -la'
-alias ll='ls --color=auto -l'
+alias la='ls --color=auto --ignore=[ntuserNTUSER]* -la'
+alias ll='ls --color=auto --ignore=[ntuserNTUSER]* -l'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
