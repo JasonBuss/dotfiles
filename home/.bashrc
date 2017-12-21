@@ -5,5 +5,4 @@
    source "${HOME}/.bash_aliases"
  fi
 
-
-
+export PATH=$PATH:$HOME/bin
