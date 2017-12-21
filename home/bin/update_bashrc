@@ -2,6 +2,6 @@
 
 cp ~/.bashrc ~/backup/.bashrc
 cp ~/projects/dotfiles/home/.bashrc ~/.bashrc
-source ~/.bash_profile
+source ~/.bashrc
 
 echo ".bashrc updated"

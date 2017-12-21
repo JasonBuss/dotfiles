@@ -2,6 +2,6 @@
 
 cp ~/.bash_aliases ~/backup/.bash_aliases
 cp ~/projects/dotfiles/home/.bash_aliases ~/.bash_aliases
-source ~/.bash_profile
+source ~/.bash_aliases
 
 echo ".bash_aliases updated"
