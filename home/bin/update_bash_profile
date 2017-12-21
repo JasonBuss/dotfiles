@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp ~/.bash_profile ~/backup/.bash_profile
+cp ~/projects/dotfiles/home/.bash_profile ~/.bash_profile
+source ~/.bash_profile
+
+echo ".bash_profile updated"
