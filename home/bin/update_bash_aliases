@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp ~/.bash_aliases ~/backup/.bash_aliases
+cp ~/projects/dotfiles/home/.bash_aliases ~/.bash_aliases
+source ~/.bash_profile
+
+echo ".bash_aliases updated"

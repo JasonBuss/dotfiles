@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp ~/.bashrc ~/backup/.bashrc
+cp ~/projects/dotfiles/home/.bashrc ~/.bashrc
+source ~/.bash_profile
+
+echo ".bashrc updated"

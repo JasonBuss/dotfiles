@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cp ~/.config/git/git-prompt.sh ~/backup/git-prompt.sh
+cp ~/projects/dotfiles/git/git-prompt.sh ~/.config/git/git-prompt.sh
+source ~/.config/git/git-prompt.sh
+echo "git-prompt updated"
