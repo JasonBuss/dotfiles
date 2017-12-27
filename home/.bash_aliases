@@ -1,5 +1,14 @@
-alias la='ls --color=auto --ignore=[ntuserNTUSER]* -la'
-alias ll='ls --color=auto --ignore=[ntuserNTUSER]* -l'
+
+LS_COMMON="-hg"
+LS_COMMON="$LS_COMMON --color=auto"
+LS_COMMON="$LS_COMMON -I NTUSER.DAT\* -I ntuser.dat\*"
+LS_COMMON="$LS_COMMON -I ntuser.ini\* -I ntuser.pol\*"
+LS_COMMON="$LS_COMMON -I desktop.ini\*"
+
+# Aliases
+alias ls="command ls $LS_COMMON"
+alias la="ls -la"
+alias ll="ls -l"
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
